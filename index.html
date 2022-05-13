@@ -1,55 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeVsite</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Block - Victor Martínez</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <header>
-        <div class="banner">
-            <h1>PELICULAS.COM</h1>
-            <div class="enlaces">
-                <a href="#">Inicio</a>
-                <a href="#">Servicios</a>
-                <a href="#">Contacto</a>
-                <a href="#">Siguenos</a>
-            </div>
-        </div>
-    </header>
-    <nav>
-        <div class="nave">
-       <a href=""> <h3>Accion</h3></a>
-       <a href=""> <h3>Comedia</h3></a>
-       <a href=""> <h3>Amor</h3></a>
-       <a href=""> <h3>Terror</h3></a>
-       <a href=""> <h3>Drama</h3></a>
-       <a href=""> <h3>Documentales</h3></a>
-       <a href=""> <h3>Series</h3></a>
-       <a href="">  <h3>Vivo</h3></a>
-       <a href=""> <h3>+Vistas</h3></a>
-       <a href=""> <h3>Recomendado</h3></a>
-       <a href="">  <h3>Ranking</h3></a>
-       <a href="">  <h3>Mas</h3></a>
-    </div>
-    </nav>
+<meta name="viewport" content="width=device-width,user-scalable=no">
 
-    <div class="titulo">
-        <h1>TE RECOMENDAMOS ESTAS peliculas</h1>
-    </div>
+<div id="container">
+	<div id="game"></div>
+	<div id="score">0</div>
+	<div id="instructions">TOCA LA PANTALLA PARA REGULAR. </div>
+	<div class="game-over">
+		<h2>GAME OVER</h2>
+		<p>QUE GENIAL ERES. TOCA LA PANTALLA</p>
+		<p>PARA INTENTAR DE NUEVO</p>
+	</div>
+	<div class="game-ready">
+		<div id="start-button">INICIAR</div>
+		<div></div>
+	</div>
+</div>
 
-<section>
-    <div class="peliculas">
-        <img src="img/peli1.jpg" alt="">
-        <img src="img/peli1.jpg" alt="">
-        <img src="img/peli1.jpg" alt="">
-        <img src="img/peli1.jpg" alt="">
-        <img src="img/peli1.jpg" alt="">
-        <img src="img/peli1.jpg" alt="">
-        <img src="img/peli1.jpg" alt="">
-        <img src="img/peli1.jpg" alt="">
-    </div>
-</section>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script><script  src="script.js"></script>
+
 </body>
 </html>
